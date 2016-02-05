@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "data": {
+    "id": 1871,
+    "name": "Заявка на подписку журнала Микроfinance+",
+    "icon_url": "\/landing_assets\/rmcenter\/logo.png",
+    "limit": "",
+    "minsum": 1,
+    "maxsum": 15000,
+    "verification_required": false,
+    "params": [
+      {
+        "id": "period",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 0,
+        "max_length": 200,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "",
+        "pattern_desc": "",
+        "type": "enum",
+        "title": "Период подписки",
+        "default_value": 6370,
+        "items": [
+          {
+            "code": 1690,
+            "value": "3 месяца - 1690 рублей"
+          },
+          {
+            "code": 3250,
+            "value": "6 месяцев - 3250 рублей"
+          },
+          {
+            "code": 6370,
+            "value": "12 месяцев - 6370 рублей"
+          }
+        ]
+      },
+      {
+        "id": "company_name",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 4,
+        "max_length": 150,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "^[^'\"]{4,150}$",
+        "pattern_desc": "ООО КредитФинансГрупп",
+        "type": "string",
+        "title": "Название компании",
+        "default_value": ""
+      },
+      {
+        "id": "address",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 5,
+        "max_length": 200,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": ".*",
+        "pattern_desc": "125167, Москва, Коминтерна 28к2",
+        "type": "text",
+        "title": "Юридический адрес с индексом",
+        "default_value": ""
+      },
+      {
+        "id": "real_address",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 5,
+        "max_length": 200,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": ".*",
+        "pattern_desc": "125167, Москва, Эльдорадовский пер. 7/19",
+        "type": "text",
+        "title": "Фактический адрес с индексом (для доставки журнала)",
+        "default_value": ""
+      },
+      {
+        "id": "inn",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 8,
+        "max_length": 64,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": ".*",
+        "pattern_desc": "1234567890",
+        "type": "number",
+        "title": "ИНН",
+        "default_value": ""
+      },
+      {
+        "id": "kpp",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 9,
+        "max_length": 9,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "^\\d{9}$",
+        "pattern_desc": "123456789",
+        "type": "number",
+        "title": "КПП",
+        "default_value": ""
+      },
+      {
+        "id": "phone",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 12,
+        "max_length": 50,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": ".*",
+        "pattern_desc": "+7 (495) 258-87-05 (доб. 116)",
+        "type": "string",
+        "title": "Телефон",
+        "default_value": ""
+      },
+      {
+        "id": "email",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 2,
+        "max_length": 255,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": ".*",
+        "pattern_desc": "",
+        "type": "email",
+        "title": "email",
+        "default_value": ""
+      },
+      {
+        "id": "contact_person",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 5,
+        "max_length": 200,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": ".*",
+        "pattern_desc": "Иван Сидоров, офис-менеджер",
+        "type": "string",
+        "title": "Контактное лицо и его должность",
+        "default_value": ""
+      },
+      {
+        "id": "count",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 1,
+        "max_length": 3,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "^\\d{1,3}$",
+        "pattern_desc": "",
+        "type": "number",
+        "title": "Количество экземпляров журнала",
+        "default_value": 1
+      },
+      {
+        "id": "format",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 0,
+        "max_length": 200,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "",
+        "pattern_desc": "",
+        "type": "enum",
+        "title": "Форма издания",
+        "default_value": "paper",
+        "items": [
+          {
+            "code": "paper",
+            "value": "Бумажная версия"
+          },
+          {
+            "code": "pdf",
+            "value": "Электронная версия"
+          }
+        ]
+      },
+      {
+        "id": "archive_items_count",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": false,
+        "min_length": 0,
+        "max_length": 200,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "^\\d{1,2}$",
+        "pattern_desc": "",
+        "type": "number",
+        "title": "Количество номеров из архива (один номер - 500 рублей)",
+        "default_value": 0
+      },
+      {
+        "id": "archive_items_desc",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": false,
+        "min_length": 5,
+        "max_length": 200,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "",
+        "pattern_desc": "6/14, 7/14, 12/13",
+        "type": "text",
+        "title": "Номера из архива (месяц/год)",
+        "default_value": ""
+      }
+    ],
+    "category": {
+      "id": 100,
+      "mserver_id": 100,
+      "name": "Прочее",
+      "group": "",
+      "icon_url_32x32": "",
+      "count": 0
+    }
+  }
+}
