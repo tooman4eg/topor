@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "data": {
+        "id": 1310,
+        "name": "Пополнение Visa\/MasterCard",
+        "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/5498a5ea56c35f4c46713038.png?1423659420",
+        "limit": "Услуга работает только для карт, выданных в Российской Федерации.",
+        "minsum": 10,
+        "maxsum": 15000,
+        "verification_required": true,
+        "params": [
+            {
+                "id": "phoneNumber",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 16,
+                "max_length": 19,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": "^\\d{16,19}$",
+                "pattern_desc": "Номер карты - это число от 16 до 19 цифр на фронтальной стороне вашей карты, обычно разбито на группы по 4 цифры",
+                "type": "card_number",
+                "title": "Номер карты",
+                "default_value": null,
+                "suggested_values": [
+
+                ],
+                "items": null
+            }
+        ],
+        "category": {
+            "id": 7,
+            "mserver_id": 7,
+            "name": "Пополнение карт банков",
+            "group": "",
+            "icon_url_32x32": "",
+            "count": 0
+        }
+    }
+}

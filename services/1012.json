@@ -1,0 +1,172 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "data": {
+        "id": 1012,
+        "name": "Триколор ТВ",
+        "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/542c2c4856c35f9f0c7ef875.png?1423659420",
+        "limit": "",
+        "minsum": 10,
+        "maxsum": 15000,
+        "verification_required": false,
+        "params": [
+            {
+                "id": "578",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 1,
+                "max_length": 1,
+                "patterns": [
+
+                ],
+                "pattern": "^\\d$",
+                "pattern_desc": "Тип платежа, 1 цифра",
+                "type": "enum",
+                "title": "Тип платежа",
+                "default_value": null,
+                "suggested_values": [
+
+                ],
+                "items": [
+                    {
+                        "code": "0",
+                        "value": "Пополнение личного счета"
+                    },
+                    {
+                        "code": "21",
+                        "value": "Опт\/СупОпт\/МаксHD"
+                    },
+                    {
+                        "code": "2",
+                        "value": "Пакет Ночной"
+                    },
+                    {
+                        "code": "5",
+                        "value": "Наш футбол 149руб"
+                    },
+                    {
+                        "code": "6",
+                        "value": "Кинозалы"
+                    },
+                    {
+                        "code": "14",
+                        "value": "РадиоПакет"
+                    },
+                    {
+                        "code": "16",
+                        "value": "Детский"
+                    },
+                    {
+                        "code": "20",
+                        "value": "СуперКино HD 5400руб.\/год"
+                    },
+                    {
+                        "code": "23",
+                        "value": "Золотая карта. Всё включено"
+                    },
+                    {
+                        "code": "22",
+                        "value": "Музыкальный"
+                    },
+                    {
+                        "code": "24",
+                        "value": "Мультирум"
+                    },
+                    {
+                        "code": "25",
+                        "value": "СуперКино HD 1500руб"
+                    },
+                    {
+                        "code": "26",
+                        "value": "Наш Футбол 750руб.\/180дней"
+                    }
+                ]
+            },
+            {
+                "id": "phoneNumber",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 1,
+                "max_length": 14,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+
+                ],
+                "pattern": "^\\d{1,14}$",
+                "pattern_desc": "Номер договора или оборудования - это число длинной от 1 до 14 символов.  Номер оборудования вы можете найти в меню вашего устройства, ищите раздел \"Статус\" или \"Смарт карта\" (Cardinfo). Обычно он указан в качестве серийного номера смарт-карты",
+                "type": "string",
+                "title": "Номер договора или оборудования",
+                "default_value": null,
+                "suggested_values": [
+
+                ],
+                "items": [
+                    {
+                        "code": "0",
+                        "value": "Пополнение личного счета"
+                    },
+                    {
+                        "code": "21",
+                        "value": "Опт\/СупОпт\/МаксHD"
+                    },
+                    {
+                        "code": "2",
+                        "value": "Пакет Ночной"
+                    },
+                    {
+                        "code": "5",
+                        "value": "Наш футбол 149руб"
+                    },
+                    {
+                        "code": "6",
+                        "value": "Кинозалы"
+                    },
+                    {
+                        "code": "14",
+                        "value": "РадиоПакет"
+                    },
+                    {
+                        "code": "16",
+                        "value": "Детский"
+                    },
+                    {
+                        "code": "20",
+                        "value": "СуперКино HD 5400руб.\/год"
+                    },
+                    {
+                        "code": "23",
+                        "value": "Золотая карта. Всё включено"
+                    },
+                    {
+                        "code": "22",
+                        "value": "Музыкальный"
+                    },
+                    {
+                        "code": "24",
+                        "value": "Мультирум"
+                    },
+                    {
+                        "code": "25",
+                        "value": "СуперКино HD 1500руб"
+                    },
+                    {
+                        "code": "26",
+                        "value": "Наш Футбол 750руб.\/180дней"
+                    }
+                ]
+            }
+        ],
+        "category": {
+            "id": 18,
+            "mserver_id": 18,
+            "name": "Телевидение",
+            "group": "",
+            "icon_url_32x32": "",
+            "count": 0
+        }
+    }
+}

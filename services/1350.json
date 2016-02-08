@@ -1,0 +1,296 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "data": {
+        "id": 1350,
+        "name": "Платежное поручение в адрес юр. лица",
+        "icon_url": "https:\/\/api.mbank.ru\/img\/services\/54a028ee56c35f4e1d27878d.png?1424966536",
+        "limit": "Получателями данного перевода могут быть только юр. лица, для физ. лиц используйте отдельный сервис. Получателю средства будут отправлены на следующий банковский день",
+        "minsum": 1,
+        "maxsum": 15000,
+        "verification_required": true,
+        "params": [
+            {
+                "id": "payer_phone",
+                "is_disabled": false,
+                "is_hidden": true,
+                "is_required": true,
+                "min_length": 12,
+                "max_length": 12,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": "^\\+7\\d{10}$",
+                "pattern_desc": "Номер телефона РФ начиная с +7 (в международном формате). Например, +79261112233",
+                "type": "phone",
+                "title": "Ваш номер телефона, с плюсом",
+                "default_value": "+7+7+79261111111",
+                "suggested_values": [
+
+                ],
+                "items": [
+                    {
+                        "code": "0",
+                        "value": "НДС не облагается"
+                    },
+                    {
+                        "code": "1",
+                        "value": "в том числе НДС"
+                    }
+                ]
+            },
+            {
+                "id": "payer_fio",
+                "is_disabled": false,
+                "is_hidden": true,
+                "is_required": true,
+                "min_length": 5,
+                "max_length": 850,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": ".*",
+                "pattern_desc": "Ваше ФИО, кириллицей, как указано в паспорте",
+                "type": "string",
+                "title": "Ваше ФИО",
+                "default_value": null,
+                "suggested_values": [
+
+                ],
+                "items": [
+                    {
+                        "code": "0",
+                        "value": "НДС не облагается"
+                    },
+                    {
+                        "code": "1",
+                        "value": "в том числе НДС"
+                    }
+                ]
+            },
+            {
+                "id": "payer_address",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 1,
+                "max_length": 255,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": ".*",
+                "pattern_desc": "Ваш адрес регистрации, как указано в прописке",
+                "type": "string",
+                "title": "Ваш адрес регистрации",
+                "default_value": null
+            },
+            {
+                "id": "phoneNumber",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 20,
+                "max_length": 20,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": "^\\d{20}$",
+                "pattern_desc": "Номер счета получателя - это 20 цифр, которые  указаны в платежном поручении",
+                "type": "number",
+                "title": "Номер счета получателя",
+                "default_value": null
+            },
+            {
+                "id": "rsvr_bik",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 9,
+                "max_length": 9,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": "^\\d{9}$",
+                "pattern_desc": "Банковский идентификационный код или БИК получателя - это 9-ти значный номер, который должен быть указан в платежном поручении. Так же вы можете его найти в реквизитах банка на его сайте или в справочнике по адресу http:\/\/garant.ru\/doc\/busref\/spr_bik\/",
+                "type": "number",
+                "title": "БИК банка получателя",
+                "default_value": null,
+                "suggested_values": [
+
+                ],
+                "items": [
+                    {
+                        "code": "0",
+                        "value": "НДС не облагается"
+                    },
+                    {
+                        "code": "1",
+                        "value": "в том числе НДС"
+                    }
+                ]
+            },
+            {
+                "id": "rsvr_fio",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 4,
+                "max_length": 150,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": "^[^'\"]{4,150}$",
+                "pattern_desc": "ООО ТПР",
+                "type": "string",
+                "title": "Название компании получателя",
+                "default_value": "ООО ТПР"
+            },
+            {
+                "id": "rsvr_inn",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 10,
+                "max_length": 12,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": "^(\\d{10}|\\d{12})$",
+                "pattern_desc": "1234567890",
+                "type": "number",
+                "title": "ИНН компании получателя (10 или 12 цифр)",
+                "default_value": "1234567890"
+            },
+            {
+                "id": "rsvr_kpp",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 9,
+                "max_length": 9,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": "^\\d{9}$",
+                "pattern_desc": "123456789",
+                "type": "number",
+                "title": "КПП получателя",
+                "default_value": "123456789",
+                "suggested_values": [
+
+                ],
+                "items": [
+                    {
+                        "code": "0",
+                        "value": "НДС не облагается"
+                    },
+                    {
+                        "code": "1",
+                        "value": "в том числе НДС"
+                    }
+                ]
+            },
+            {
+                "id": "pay_purpose",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 10,
+                "max_length": 120,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": ".*",
+                "pattern_desc": "Укажите назначение вашего платежа, длинной от 10 до 120 символов",
+                "type": "string",
+                "title": "Назначение платежа",
+                "default_value": "На фикус директору"
+            },
+            {
+                "id": "nds",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 1,
+                "max_length": 1,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": ".*",
+                "pattern_desc": "",
+                "type": "enum",
+                "title": "НДС",
+                "default_value": 1,
+                "items": [
+                    {
+                        "code": "1",
+                        "value": "в том числе НДС"
+                    },
+                    {
+                        "code": "0",
+                        "value": "НДС не облагается"
+                    }
+                ]
+            }
+        ],
+        "category": {
+            "id": 978,
+            "mserver_id": 978,
+            "name": "Денежные переводы",
+            "group": "",
+            "icon_url_32x32": "",
+            "count": 0
+        }
+    }
+}

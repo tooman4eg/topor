@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "data": {
+    "id": 10005,
+    "name": "РЕСО Вызвать агента",
+    "icon_url": "\/landing_assets\/reso\/logo_square.png",
+    "minsum": 50,
+    "maxsum": 15000,
+    "is_disabled": true,
+    "params": [
+    ],
+    "category": {
+      "id": 10001,
+      "name": "Страхование",
+      "group": "insurance",
+      "icon_url_32x32": ""
+    }
+  }
+}

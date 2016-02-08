@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "data": {
+        "id": 1420,
+        "name": "Mail.ru (Агент)",
+        "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/54a08adb56c35f8f34f02ef1.png?1423659423",
+        "limit": "",
+        "minsum": 10,
+        "maxsum": 15000,
+        "verification_required": false,
+        "params": [
+            {
+                "id": "phoneNumber",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 7,
+                "max_length": 10,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": "^\\d{7,10}$",
+                "pattern_desc": "ID - строка от 7 до 10 цифр, уточнить вы его можете в личном кабинете agent.mail.ru",
+                "type": "number",
+                "title": "ID клиента",
+                "default_value": null,
+                "suggested_values": [
+
+                ],
+                "items": null
+            }
+        ],
+        "category": {
+            "id": 4,
+            "mserver_id": 4,
+            "name": "Игры и социальные сети",
+            "group": "",
+            "icon_url_32x32": "",
+            "count": 0
+        }
+    }
+}

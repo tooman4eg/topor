@@ -1,0 +1,28 @@
+{
+    "name": "nebo15/topor",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "korchasa",
+            "email": "korchasa@gmail.com",
+            "homepage": "https://github.com/korchasa/",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/Nebo15/topor",
+    "description": "TPR services library for PHP",
+    "autoload": {
+        "psr-4": {"Topor\\": "src/"}
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "ramsey/uuid": "^2.8",
+        "monolog/monolog": "~1.12"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3.0"
+    },
+    "autoload-dev": {
+        "files": ["tests/acceptance/ApiTestCase.php"]
+    }
+}

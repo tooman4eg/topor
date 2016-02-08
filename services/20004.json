@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "data": {
+    "id": 20004,
+    "name": "Промингрупп",
+    "icon_url": null,
+    "limit": "",
+    "minsum": 1,
+    "maxsum": 15000,
+    "verification_required": false,
+    "params": [
+      {
+        "id": "address",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 5,
+        "max_length": 200,
+        "range_start": 0,
+        "range_end": 0,
+        "patterns": [
+          {
+            "pattern": "",
+            "description": ""
+          }
+        ],
+        "pattern": "",
+        "pattern_desc": "Коминтерна 28к2",
+        "type": "address",
+        "title": "Адрес",
+        "default_value": null,
+        "suggested_values": [
+
+        ],
+        "items": null
+      },
+      {
+        "id": "apartment",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 1,
+        "max_length": 5,
+        "range_start": 0,
+        "range_end": 0,
+        "patterns": [
+          {
+            "pattern": "",
+            "description": ""
+          }
+        ],
+        "pattern": "",
+        "pattern_desc": "Номер квартиры",
+        "type": "number",
+        "title": "Номер квартиры",
+        "default_value": null,
+        "suggested_values": [
+
+        ],
+        "items": null
+      },
+      {
+        "id": "period",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 0,
+        "max_length": 0,
+        "range_start": 0,
+        "range_end": 0,
+        "patterns": [
+          {
+            "pattern": "^\\d{2}\\.\\d{2}$",
+            "description": "ММ.ГГ"
+          }
+        ],
+        "pattern": "",
+        "pattern_desc": "Неверный период",
+        "type": "string",
+        "title": "Период",
+        "default_value": null,
+        "suggested_values": [
+
+        ],
+        "items": null
+      }
+    ],
+    "category": {
+      "id": 87,
+      "mserver_id": 87,
+      "name": "Коммунальные услуги",
+      "group": "",
+      "icon_url_32x32": "",
+      "count": 0
+    }
+  }
+}

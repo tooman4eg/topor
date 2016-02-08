@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "request_time": 1423665132,
+    "code": 200
+  },
+  "data": [
+    {
+      "id": 3,
+      "name": "Мобильная связь",
+      "group": "cellular",
+      "icon_url_32x32": "",
+      "count": 9,
+      "services": [
+        {
+          "id": 1000,
+          "name": "Теле2",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53359fb2255c741a749f0c44.png?1423670238",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 770,
+          "name": "Билайн",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53359fb2255c741a749f0c45.png?1423670238",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 827,
+          "name": "МТС",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53359fb2255c741a749f0c46.png?1423670238",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 1171,
+          "name": "Yota Мобильная Связь",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53a83b7856c35fcf140c8bde.png?1423670238",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 834,
+          "name": "МегаФон",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/542949a556c35f205de5a52d.png?1423670238",
+          "limit": "",
+          "verification_required": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Игры и социальные сети",
+      "group": "",
+      "icon_url_32x32": "",
+      "count": 7,
+      "services": [
+        {
+          "id": 1009,
+          "name": "Одноклассники",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53359fb2255c741a749f0c48.png?1423659418",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 1008,
+          "name": "World of Tanks\\Warplanes",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53359fb2255c741a749f0c4a.png?1423659418",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 1161,
+          "name": "Steam",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53a6f8f456c35f166462c6c8.png?1423659419",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 1163,
+          "name": "ВКонтакте",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53a70ca256c35f1664f64b20.png?1423659419",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 1420,
+          "name": "Mail.ru (Агент)",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/54a08adb56c35f8f34f02ef1.png?1423659423",
+          "limit": "",
+          "verification_required": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Интернет провайдеры",
+      "group": "",
+      "icon_url_32x32": "",
+      "count": 159,
+      "services": [
+        {
+          "id": 1172,
+          "name": "Yota Интернет",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53a83b7056c35fc514c9c5aa.png?1423659419",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 1011,
+          "name": "OnLime, Ростелеком",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53359fb2255c741a749f0c4c.png?1423659418",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 1232,
+          "name": "Starlink",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/5469dd3356c35f3436f10e7b.png?1423659420",
+          "limit": "",
+          "verification_required": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Платежные системы",
+      "group": "",
+      "icon_url_32x32": "",
+      "count": 5,
+      "services": [
+        {
+          "id": 1001,
+          "name": "Яндекс.Деньги",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53a1c67c56c35fe07671be4c.png?1423659419",
+          "limit": "Этот сервис классифицируется как перевод между физическими лицами и имеет отдельные лимиты",
+          "verification_required": true
+        },
+        {
+          "id": 1002,
+          "name": "WebMoney",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53a1c76756c35f5a249cd7d4.png?1423670238",
+          "limit": "Этот сервис классифицируется как перевод между физическими лицами и имеет отдельные лимиты",
+          "verification_required": true
+        },
+        {
+          "id": 1121,
+          "name": "Платежная книжка Киберплат",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/5398493156c35f8407dc62b0.png?1423670238",
+          "limit": "Этот сервис классифицируется как перевод между физическими лицами и имеет отдельные лимиты",
+          "verification_required": true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Телевидение",
+      "group": "",
+      "icon_url_32x32": "",
+      "count": 4,
+      "services": [
+        {
+          "id": 1174,
+          "name": "НТВ Плюс",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53a83d3156c35f9314efbd5f.png?1423659419",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 1012,
+          "name": "Триколор ТВ",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/542c2c4856c35f9f0c7ef875.png?1423659420",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 1516,
+          "name": "Восточный Экспресс ТВ",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/54b3b4ee56c35f4f5ec78506.png?1423659426",
+          "limit": "",
+          "verification_required": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Охранные службы",
+      "group": "",
+      "icon_url_32x32": "",
+      "count": 2,
+      "services": [
+        {
+          "id": 1101,
+          "name": "Цезарь Сателлит",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/537e27a956c35f87703a3fa7.png?1423659419",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 1164,
+          "name": "Эшелон Охранная Система",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53a70d2456c35f58640fdd47.png?1423659419",
+          "limit": "",
+          "verification_required": false
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Коммунальные услуги",
+      "group": "",
+      "icon_url_32x32": "",
+      "count": 1,
+      "services": [
+        {
+          "id": 1710,
+          "name": "ТСЖ Монолит-престиж",
+          "icon_url": "",
+          "limit": "",
+          "verification_required": false
+        }
+      ]
+    },
+    {
+      "id": 10001,
+      "name": "Страхование",
+      "group": "",
+      "icon_url_32x32": "",
+      "count": 5,
+      "services": [
+        {
+          "id": 10001,
+          "name": "РЕСО КАСКО и ОСАГО",
+          "icon_url": "\/landing_assets\/reso\/logo_square.png",
+          "limit": ""
+        },
+        {
+          "id": 10002,
+          "name": "РЕСО Дом, Квартира, Ипотека",
+          "icon_url": "\/landing_assets\/reso\/logo_square.png",
+          "limit": ""
+        },
+        {
+          "id": 10003,
+          "name": "РЕСО Жизнь, Туристы",
+          "icon_url": "\/landing_assets\/reso\/logo_square.png",
+          "limit": ""
+        },
+        {
+          "id": 10004,
+          "name": "РЕСО ОМС, Медицина (ДМС), Несчастный случай",
+          "icon_url": "\/landing_assets\/reso\/logo_square.png",
+          "limit": ""
+        },
+        {
+          "id": 10005,
+          "name": "РЕСО Вызвать агента",
+          "icon_url": "\/landing_assets\/reso\/logo_square.png",
+          "limit": ""
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Прочее",
+      "group": "",
+      "icon_url_32x32": "",
+      "count": 2,
+      "services": [
+        {
+          "id": 1456,
+          "name": "Ru-center",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/54a24fdb56c35f207b560500.png?1423659424",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 1855,
+          "name": "Центр исследований платежных систем и расчетов",
+          "icon_url": "/landing_assets/paysyscenter/logo_256x256.png",
+          "limit": "",
+          "verification_required": false
+        },
+        {
+          "id": 1224,
+          "name": "Faberlic",
+          "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53d101f556c35fd671fd1d49.png?1423659420",
+          "limit": "",
+          "verification_required": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "data": {
+        "id": 1331,
+        "name": "Платежное поручение в адрес физ. лица",
+        "icon_url": "https:\/\/api.mbank.ru\/img\/services\/549d5b9656c35ff24ca2f1c9.png?1425392178",
+        "limit": "Получателями данного перевода могут быть только физи. лица, для юр. лиц используйте отдельный сервис. Получателю средства будут отправлены на следующий банковский день",
+        "minsum": 1,
+        "maxsum": 15000,
+        "verification_required": true,
+        "params": [
+            {
+                "id": "payer_phone",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 12,
+                "max_length": 12,
+                "range_start": 0,
+                "range_end": 0,
+                "pattern": "^\\+7\\d{10}$",
+                "pattern_desc": "",
+                "type": "phone",
+                "title": "Ваш номер телефона, с плюсом",
+                "default_value": "+79261111111"
+            },
+            {
+                "id": "payer_fio",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 5,
+                "max_length": 850,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": ".*",
+                "pattern_desc": "Ваше ФИО, кириллицей, как указано в паспорте",
+                "type": "fio",
+                "title": "Ваши фамилия, имя и отчество",
+                "default_value": "Иванов Петр Сидорович",
+                "items": null
+            },
+            {
+                "id": "payer_address",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 1,
+                "max_length": 255,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": ".*",
+                "pattern_desc": "Ваш адрес регистрации, как указано в прописке",
+                "type": "address",
+                "title": "Ваш адрес регистрации",
+                "default_value": "Москва, Неглинная 12-12",
+                "suggested_values": [
+
+                ],
+                "items": null
+            },
+            {
+                "id": "phoneNumber",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 20,
+                "max_length": 20,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": "^\\d{20}$",
+                "pattern_desc": "Номер счета получателя - это 20 цифр, которые  указаны в платежном поручении",
+                "type": "number",
+                "title": "Номер счета получателя",
+                "default_value": "12345678901234567890",
+                "suggested_values": [
+
+                ],
+                "items": null
+            },
+            {
+                "id": "rsvr_bik",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 9,
+                "max_length": 9,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": "^\\d{9}$",
+                "pattern_desc": "123456789",
+                "type": "number",
+                "title": "Банковский идентификационный код (БИК)",
+                "default_value": "123456789",
+                "suggested_values": [
+
+                ],
+                "items": null
+            },
+            {
+                "id": "rsvr_fio",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 5,
+                "max_length": 850,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": ".*",
+                "pattern_desc": "ФИО владельца счета или название компании-получателя",
+                "type": "fio",
+                "title": "ФИО получателя",
+                "default_value": "Иванов Иван Иванович",
+                "suggested_values": [
+
+                ],
+                "items": null
+            }
+        ],
+        "category": {
+            "id": 978,
+            "mserver_id": 978,
+            "name": "Денежные переводы",
+            "group": "",
+            "icon_url_32x32": "",
+            "count": 0
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "data": {
+        "id": 1161,
+        "name": "Steam",
+        "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53a6f8f456c35f166462c6c8.png?1423659419",
+        "limit": "",
+        "minsum": 10,
+        "maxsum": 15000,
+        "verification_required": false,
+        "params": [
+            {
+                "id": "phoneNumber",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 1,
+                "max_length": 33,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+
+                ],
+                "pattern": "^[a-zA-Z0-9_]{3,64}$",
+                "pattern_desc": "Имя вашего аккаунта Steam - это строка длинной от 3 до 64 символов, она является вашим логином в личный кабинет. Например, Mr_CrazyGamer",
+                "type": "string",
+                "title": "Имя аккаунта Steam",
+                "default_value": null,
+                "suggested_values": [
+
+                ],
+                "items": null
+            }
+        ],
+        "category": {
+            "id": 4,
+            "mserver_id": 4,
+            "name": "Игры и социальные сети",
+            "group": "",
+            "icon_url_32x32": "",
+            "count": 0
+        }
+    }
+}

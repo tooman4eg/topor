@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "data": {
+    "id": 100000,
+    "name": "Тестовый сервис",
+    "minsum": 99,
+    "maxsum": 14999,
+    "params": [
+      {
+        "id": "number",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 1,
+        "max_length": 5,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "",
+        "pattern_desc": "Число от 1 до 5 символов",
+        "type": "number",
+        "title": "number",
+        "default_value": null,
+        "items": null
+      },
+      {
+        "id": "string",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 1,
+        "max_length": 255,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "^[а-яА-ЯёЁ\\-]{1,255}$",
+        "pattern_desc": "Строка кирилицей",
+        "type": "string",
+        "title": "string",
+        "default_value": null
+      },
+      {
+        "id": "enum",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": null,
+        "max_length": null,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": ".*",
+        "pattern_desc": "---",
+        "type": "enum",
+        "title": "enum",
+        "default_value": "Да",
+        "items": [
+          {
+            "code": 1,
+            "value": "Да"
+          },
+          {
+            "code": 2,
+            "value": "Нет"
+          },
+          {
+            "code": 3,
+            "value": "Позвонить Генадию"
+          }
+        ]
+      },
+      {
+        "id": "fio",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 3,
+        "max_length": 255,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "",
+        "pattern_desc": "",
+        "type": "fio",
+        "title": "fio",
+        "default_value": null
+      },
+      {
+        "id": "hidden",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 3,
+        "max_length": 255,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "",
+        "pattern_desc": "",
+        "type": "hidden",
+        "title": "fio",
+        "default_value": "aaaaa"
+      },
+      {
+        "id": "phone",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 12,
+        "max_length": 12,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "",
+        "pattern_desc": "",
+        "type": "phone",
+        "title": "phone",
+        "default_value": null
+      },
+      {
+        "id": "phone_ru",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 12,
+        "max_length": 12,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "",
+        "pattern_desc": "",
+        "type": "phone_ru",
+        "title": "phone_ru",
+        "default_value": null
+      },
+      {
+        "id": "email",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 2,
+        "max_length": 255,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "",
+        "pattern_desc": "",
+        "type": "email",
+        "title": "email",
+        "default_value": null
+      },
+      {
+        "id": "address",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 4,
+        "max_length": 255,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "",
+        "pattern_desc": "",
+        "type": "address",
+        "title": "address",
+        "default_value": null
+      },
+      {
+        "id": "card_number",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 1,
+        "max_length": 255,
+        "range_start": 0,
+        "range_end": 0,
+        "pattern": "",
+        "pattern_desc": "",
+        "type": "card_number",
+        "title": "card_number",
+        "default_value": null
+      },
+      {
+        "id": "date",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length": 10,
+        "max_length": 10,
+        "range_start": 1,
+        "range_end": 1,
+        "pattern": "",
+        "pattern_desc": "",
+        "type": "date",
+        "title": "date",
+        "default_value": ""
+      },
+      {
+        "id": "country_iso",
+        "is_disabled": false,
+        "is_hidden": false,
+        "is_required": true,
+        "min_length":5,
+        "max_length":5,
+        "range_start": 1,
+        "range_end": 1,
+        "pattern": "",
+        "pattern_desc": "",
+        "type": "country_iso",
+        "title": "country_iso",
+        "default_value": ""
+      }
+    ],
+    "category": {
+      "id": 978,
+      "mserver_id": 978,
+      "name": "тестовые сервисы",
+      "group": "",
+      "icon_url_32x32": "",
+      "count": 0
+    }
+  }
+}

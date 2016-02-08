@@ -1,0 +1,46 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "data": {
+        "id": 1009,
+        "name": "Одноклассники",
+        "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53359fb2255c741a749f0c48.png?1423659418",
+        "limit": "",
+        "minsum": 1,
+        "maxsum": 15000,
+        "verification_required": false,
+        "params": [
+            {
+                "id": "phoneNumber",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 6,
+                "max_length": 32,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+
+                ],
+                "pattern": "",
+                "pattern_desc": "Логин, email или код услуги, это строка от 6 до 32 символов",
+                "type": "string",
+                "title": "Логин, email или код услуги",
+                "default_value": null,
+                "suggested_values": [
+
+                ],
+                "items": null
+            }
+        ],
+        "category": {
+            "id": 4,
+            "mserver_id": 4,
+            "name": "Игры и социальные сети",
+            "group": "",
+            "icon_url_32x32": "",
+            "count": 0
+        }
+    }
+}

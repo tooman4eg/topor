@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "data": {
+        "id": 1000,
+        "name": "Теле2",
+        "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53359fb2255c741a749f0c44.png?1423749036",
+        "limit": "",
+        "minsum": 1,
+        "maxsum": 15000,
+        "verification_required": false,
+        "params": [
+            {
+                "id": "phoneNumber",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 12,
+                "max_length": 12,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+                    {
+                        "pattern": "",
+                        "description": ""
+                    }
+                ],
+                "pattern": "^\\+7[0-9]{10}$",
+                "pattern_desc": "Номер телефона РФ начиная с +7 (в международном формате). Например, +79261112233",
+                "type": "phone",
+                "title": "Номер телефона, начиная с +7",
+                "default_value": null,
+                "suggested_values": [
+
+                ],
+                "items": null
+            }
+        ],
+        "category": {
+            "id": 3,
+            "mserver_id": 3,
+            "name": "Мобильная связь",
+            "group": "cellular",
+            "icon_url_32x32": "",
+            "count": 0
+        }
+    }
+}

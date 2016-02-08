@@ -1,0 +1,68 @@
+{
+    "meta": {
+        "code": 200
+    },
+    "data": {
+        "id": 1002,
+        "name": "WebMoney",
+        "icon_url": "https:\/\/img.schet.ru\/resize\/128x128\/img\/services\/53a1c76756c35f5a249cd7d4.png?1423670238",
+        "limit": "Этот сервис классифицируется как перевод между физическими лицами и имеет отдельные лимиты",
+        "minsum": 10,
+        "maxsum": 15000,
+        "verification_required": true,
+        "params": [
+            {
+                "id": "mobile",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 12,
+                "max_length": 12,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+
+                ],
+                "pattern": "^\\+7[0-9]{10}$",
+                "pattern_desc": "Номер телефона РФ начиная с +7 (в международном формате). Например, +79261112233",
+                "type": "phone",
+                "title": "Номер телефона, начиная с +7",
+                "default_value": null,
+                "suggested_values": [
+
+                ],
+                "items": null
+            },
+            {
+                "id": "phoneNumber",
+                "is_disabled": false,
+                "is_hidden": false,
+                "is_required": true,
+                "min_length": 12,
+                "max_length": 12,
+                "range_start": 0,
+                "range_end": 0,
+                "patterns": [
+
+                ],
+                "pattern": "^\\+7[0-9]{10}$",
+                "pattern_desc": "Номер вашего рублевого кошелька, всегда начинается на R. Например, R123456789012",
+                "type": "string",
+                "title": "Номер R-кошелька",
+                "default_value": null,
+                "suggested_values": [
+
+                ],
+                "items": null
+            }
+        ],
+        "category": {
+            "id": 6,
+            "mserver_id": 6,
+            "name": "Платежные системы",
+            "group": "",
+            "icon_url_32x32": "",
+            "count": 0
+        }
+    }
+}
